@@ -244,7 +244,7 @@ ul.two-column li {
   border-radius: 50%;
   padding: 0;
   /* object-fit: cover; */
-  border: 2px solid #50fa7b	;
+  border: 2px solid #8be9fd	;
   /* border- */
   /* object-fit: scale-down; */
   /* background:hite; */
@@ -308,6 +308,20 @@ ul.two-column li {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #8be9fd;
+  -webkit-text-stroke:
+    radial-gradient(
+      circle farthest-corner at center center,
+     #ff79c6,
+     #8be9fd
+    ) no-repeat;
+   /* color: white; */
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .right-column {
