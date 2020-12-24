@@ -151,8 +151,14 @@ ul.two-column li {
   padding-bottom: 5px;
 }
 
+/* @page { */
+  /* size: A4; */
+/* } */
 @page {
-  size: A4;
+  size: 11in 17in;
+  -relaxed-page-width: 11in;
+  -relaxed-page-height: 17in;
+  margin: 0;
 }
 
 .container {
@@ -300,7 +306,8 @@ ul.two-column li {
 }
 
 .profile-header h1, .profile-header h2 {
-  background: radial-gradient(
+  color: #8be9fd;
+  /* background: radial-gradient(
     circle farthest-corner at center center,
     #ff79c6,
     #8be9fd
@@ -315,7 +322,7 @@ ul.two-column li {
      #ff79c6,
      #8be9fd
     ) no-repeat;
-   /* color: white; */
+    */
   text-shadow:
     3px 3px 0 #000,
     -1px -1px 0 #000,
@@ -482,7 +489,8 @@ ul.two-column li {
     - text-align: justify;
   } */
 
-  .container > section {
+
+  /* .container > section {
     page-break-inside: avoid;
   }
 
@@ -502,7 +510,7 @@ ul.two-column li {
   .gpa {
     border: 1px solid #393e46;
     margin-left: 10px;
-  }
+  } */
 }
 
 /* Components */
