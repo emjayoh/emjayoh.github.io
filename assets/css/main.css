@@ -13,11 +13,7 @@ body {
   /* color: #39424b; */
   /* position: relative; */
   text-transform: lowercase;
-  background: radial-gradient(
-    circle closest-corner at center 125px,
-    #282a36d0,
-    #282a36 100%
-  ) no-repeat;
+  background-color: #282a36;
 }
 
 /* body, html {
@@ -202,7 +198,9 @@ ul.two-column li {
 .page {
   /* background: #282a36;
   background-color: #282a36; */
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png"); */
+  background-image: url("assets/img/tileable-wood.png");
+
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   color: #f8f8f2;
   /* width: 612px; */
@@ -332,6 +330,7 @@ ul.two-column li {
 .title {
   /* background-color: #393e46; */
   background-color: #44475a;
+  background: linear-gradient(to right, #44475a, rgba(0,0,0,0) 100% 101%);
   padding: 5px;
   margin-bottom: 15px;
   border-bottom: 3px solid transparent;
@@ -415,49 +414,50 @@ ul.two-column li {
 }
 
 @media print {
-  body {
+  /* body {
     margin: 0;
     background: white;
     color: #000;
-  }
+  } */
 
-  main {
+  /* main {
     background: white !important;
     color: black !important;
-  }
+  } */
 
-  @page {
+  /* @page {
     border-top: 2px solid white;
-  }
+  } */
 
 
-  .page {
+  /* .page {
     color: #000;
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 35px 0 35px; /* 35px  35px; */
+    padding: 35px 0 35px;
+    35px  35px
     box-shadow: none;
-  }
+  } */
 
-  .title {
+  /* .title {
     background-color: #393e46;
     color: white;
-  }
+  } */
 
-  .keyline {
+  /* .keyline {
     width: 45px;
-    /* margin: 8px 0 10px; */
+    -  margin: 8px 0 10px;
     margin: 4px 0 10px;
     border-top: 2px solid #ff5701;
     display: none;
-  }
+  } */
 
-  .page .resume-header,
+  /* .page .resume-header,
   .page .resume-content {
     padding: 0 35px 0 35px;
-    /* text-align: justify; */
-  }
+    - text-align: justify;
+  } */
 
   .container > section {
     page-break-inside: avoid;
