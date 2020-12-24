@@ -195,11 +195,20 @@ ul.two-column li {
 
 
 /* Layouts */
+#page-wrap {
+  background-color: #282a36;
+  background: radial-gradient(
+    circle closest-corner at center 125px,
+    #282a36,
+    #191a21 100%
+  ) no-repeat
+}
 .page {
   /* background: #282a36;
   background-color: #282a36; */
   /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png"); */
-  background-image: url("assets/img/tileable-wood.png");
+  /* background-image: url("../img/foggy-birds.png"); */
+  background-image: url("../img/inspiration-geometry.png");
 
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   color: #f8f8f2;
